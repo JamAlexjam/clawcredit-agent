@@ -1,0 +1,13 @@
+{
+  "name": "clawcredit-agent",
+  "version": "1.0.0",
+  "main": "register.js",
+  "scripts": {
+    "register": "node register.js",
+    "heartbeat": "node heartbeat.js",
+    "pay": "node pay.js"
+  },
+  "dependencies": {
+    "@t54-labs/clawcredit-sdk": "^1.0.0"
+  }
+}
